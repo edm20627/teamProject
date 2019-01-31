@@ -53,10 +53,6 @@
 								<td><s:property value="%{#session.productDescription}" /></td>
 							</tr>
 						</table>
-
-						<s:hidden name="productId" value="%{#session.productId}" />
-						<s:hidden name="price" value="%{#session.price}" />
-
 						<div class="submit_btn_box">
 							<s:submit value="カートに追加" class="submit_btn" />
 						</div>
